@@ -1,4 +1,4 @@
-# MIT_Python 
+# MIT Python assignment
 Author: James Tang \
 This folder contains the completed assignment named [ps3.py](ps3.py) for MIT Python class's problem set 3.
 # Problem Set 3: The 6.00/6.0001 Word Game
