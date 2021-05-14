@@ -427,7 +427,8 @@ def play_game(word_list):
         HAND_SIZE = int(input("Enter a number for hand size:"))
         hand = deal_hand(HAND_SIZE)
         copy1 = copy.deepcopy(hand)
-        print("The current hand is:",display_hand(hand))
+        print("The current hand is:")
+        display_hand(hand)
         # ask if one wants to sub a letter
         # if yes then sub one
         while True:
@@ -444,7 +445,8 @@ def play_game(word_list):
         # ask if someone would replay the hand
         Y_N = input('Would you like to replay the hand?').lower()
         if Y_N == "yes":
-            print("The current hand is:",display_hand(copy1))
+            print("The current hand is:")
+            display_hand(copy1)
             # ask if one wants to sub a letter
             # if yes then sub one
             while True:
